@@ -1,7 +1,5 @@
 .App-header {
-  background-color: #818181;
-  display: flex;
-  flex-direction: row;
+  background-color: #4d5a73;;
 }
 .App-header a {
   font-size: calc(18px + 1vmin);
@@ -14,6 +12,7 @@
 }
 
 .App-body {
+  background-color: #adb6bb;
   text-align: center;
 }
 
@@ -25,31 +24,35 @@
 }
 
 .SocialLinks {
-  font-size: calc(24px + 1vmin);
   text-align: right;
   padding-right: calc(40px + 1vmin);
 }
 
 .Subscript {
-  font-size: calc(5px + 1vmin);
+  font-size: calc(8px + 1vmin);
+}
+
+.Position {
+  font-size: calc(24px + 1vmin);
+  margin-bottom: 0px;
 }
 
 .reactLogo {
-  height: 5vmin;
+  height: 40px;
   cursor: pointer;
   transition: transform 2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nodeLogo {
-  height: 5vmin;
+  height: 50px;
 }
 .typescriptLogo {
-  height: 2vmin;
+  height: 20px;
 }
 .vsCodeLogo {
-  height: 3vmin;
+  height: 30px;
 }
 .awsLogo {
-  height: 3vmin;
+  height: 30px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -67,4 +70,14 @@
 }
 .rotating {
   animation: spin 2s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.carousel-caption {
+  font-size: calc(8px + 1vmin);
+  text-align: right;
+}
+
+.list-group-item {
+  font-size: calc(8px + 1vmin);
+  background-color: #adb6bb;
 }
