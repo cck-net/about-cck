@@ -137,6 +137,14 @@ function Certificates() {
   return (
     <Carousel slide data-bs-theme="dark">
       <Carousel.Item>
+        <Image className="img-fluid" src="https://udemy-certificate.s3.amazonaws.com/image/UC-1401f08a-a7ba-4f45-a341-7c4cbee06267.jpg" />
+        <Carousel.Caption>
+          <a href="https://www.udemy.com/certificate/UC-1401f08a-a7ba-4f45-a341-7c4cbee06267/" target="tab">
+            view on udemy
+          </a>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
         <Image className="img-fluid" src="https://udemy-certificate.s3.amazonaws.com/image/UC-0444d3a2-88e9-4114-8a62-c7fcc40b6a13.jpg" />
         <Carousel.Caption>
           <a href="https://www.udemy.com/certificate/UC-0444d3a2-88e9-4114-8a62-c7fcc40b6a13/" target="tab">
